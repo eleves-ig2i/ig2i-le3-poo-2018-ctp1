@@ -24,7 +24,7 @@ public class RequeteGestionStock {
     /**
      * URL de connexion à la base.
      */
-    private final static String DATABASE_URL = "jdbc:derby://localhost:1527/gestionStock";
+    private final static String DATABASE_URL = "jdbc:derby://localhost:1527/database";
     
     /**
      * Driver JDBC utilisé.
@@ -34,14 +34,14 @@ public class RequeteGestionStock {
     /**
      * Utilisateur de la base de données.
      */
-    private final static String DATABASE_USER = "stock";
+    private final static String DATABASE_USER = "username";
     
     /**
      * Mot de passe de la base de données.
      * 
      * @note Stocker le mot de passe en clair n'est pas très sécurisé.
      */
-    private final static String DATABASE_PASS = "stock";
+    private final static String DATABASE_PASS = "password";
     
     // Connection
     
